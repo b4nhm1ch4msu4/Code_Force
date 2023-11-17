@@ -1,8 +1,8 @@
 testcases = int(input())
 for test in range(testcases):
     size = int(input())
-    user_input = input()
     
+    user_input = input()
     numbers = [int(num) for num in user_input.split()]
     
     numbers.sort()
